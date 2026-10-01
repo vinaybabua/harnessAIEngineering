@@ -76,6 +76,18 @@ adk web
 This starts the ADK dev UI. Select `app` (the `root_agent` defined in
 `app/agent.py`) from the agent dropdown and chat with it in the browser.
 
+## Alternative way to run this using Streamlit UI library, make sur we have installed streamlit library
+
+```bash
+pip install streamlit 
+```
+
+Run below:
+
+streamlit run streamlit_app.py
+
+This starts the streamlit UI and oyu can customize it. This just wrapper around root Agent, everything works exact same way as in google adk UI.
+
 Example prompts:
 
 ```text
